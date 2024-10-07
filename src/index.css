@@ -47,7 +47,7 @@ nav a:hover {
   text-align: center;
   padding: 5px 5px;
   width: 100%;
-  min-width: 500px;
+  /*min-width: 500px;*/
   color: white;
   background-color: hsl(225, 52%, 49%);
 }
