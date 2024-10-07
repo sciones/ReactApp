@@ -1,0 +1,127 @@
+/* {
+  border: solid red 2px;
+}*/
+
+body {
+  background-image: url(assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: hsl(225, 52%, 49%);
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: hsl(225, 52%, 39%);
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 5px;
+  width: 100%;
+  min-width: 500px;
+  color: white;
+  background-color: hsl(225, 52%, 49%);
+}
+
+.calcBody {
+  margin: 20px auto;
+  font-family: serif;
+  font-weight: bold;
+  color: hsl(225, 52%, 39%);
+  background: rgba(255, 255, 255, 0.5); /* White background for the container */
+  padding: 50px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: hsl(225, 52%, 49%);
+  /* background-color: #3d5ebb; */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.calculate {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 5px;
+  min-width: 125px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+  background-color: hsl(205, 90%, 60%);
+}
+
+.calculate:hover {
+  background-color: hsl(205, 90%, 45%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: center; /* Aligns both headers and table data to the center */
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: hsla(231, 90%, 73%, 0.329);
+  font-weight: bold;
+}
+
+td {
+  font-family: "Courier New", monospace;
+}
