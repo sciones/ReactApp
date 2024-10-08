@@ -1,6 +1,6 @@
-* {
+/* {
   border: solid red 2px;
-}
+}*/
 
 body {
   overflow-y: auto;
@@ -30,7 +30,6 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -86,7 +85,6 @@ nav a:hover {
   color: white;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
