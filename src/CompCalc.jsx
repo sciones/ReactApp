@@ -39,7 +39,7 @@ function CompCalc() {
         <div className="calcBody">
             <h1 className="title"> Compound Interest Calculator </h1>
             <div className="input">
-                <label>Initial Investment</label>
+                <label>Current Investment</label>
                 <input 
                     type="number"
                     name="initVal" 
@@ -48,7 +48,7 @@ function CompCalc() {
                     onChange={inputChange} />
             </div>
             <div  className="input">
-                <label>Contribution Each Month</label>
+                <label>Monthly Contribution</label>
                 <input 
                     type="number"
                     name="contrib"  

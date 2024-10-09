@@ -55,7 +55,7 @@ function Disbursement() {
         <div className="calcBody">
             <h1 className="title"> Disbursement Calculator </h1>
             <div className="input">
-                <label>Current Total Money</label>
+                <label>Current Investment</label>
                 <input 
                     type="number" 
                     name="total" 
@@ -64,7 +64,7 @@ function Disbursement() {
                     onChange={inputChange} />
             </div>
             <div className="input">
-                <label>Disbursement Percentage</label>
+                <label>Disbursement %</label>
                 <input 
                     type="number" 
                     name="disbursement" 
@@ -73,7 +73,7 @@ function Disbursement() {
                     onChange={inputChange} />
             </div>
             <div className="input">
-                <label>Interest Gain Percentage</label>
+                <label>Interest Gain %</label>
                 <input 
                     type="number" 
                     name="interest" 
