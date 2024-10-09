@@ -11,14 +11,14 @@ body {
   background-attachment: fixed;
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
-  padding-top: 60px; /* Adjust based on the header height */
-  padding-bottom: 60px; /* Adjust based on the footer height */
+  padding-top: 60px;
+  padding-bottom: 60px;
   box-sizing: border-box;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
+  border-radius: 5px;
   width: 100%;
   top: 0;
   left: 0;
@@ -52,7 +53,6 @@ nav a:hover {
   text-align: center;
   padding: 5px 5px;
   width: 100%;
-  /*min-width: 500px;*/
   color: white;
   background-color: hsl(225, 52%, 49%);
 }
@@ -62,9 +62,9 @@ nav a:hover {
   font-family: serif;
   font-weight: bold;
   color: hsl(225, 52%, 39%);
-  background: rgba(255, 255, 255, 0.5); /* White background for the container */
+  background: rgba(255, 255, 255, 0.5);
   padding: 50px 20px;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@ nav a:hover {
 
 .footer {
   background-color: hsl(225, 52%, 49%);
-  /* background-color: #3d5ebb; */
+  border-radius: 5px;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -115,7 +115,7 @@ table {
 }
 
 th, td {
-  text-align: center; /* Aligns both headers and table data to the center */
+  text-align: center;
   background-color: hsl(0, 0%, 95%);
   padding: 10px;
   border-bottom: 1px solid #ddd;

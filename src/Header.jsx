@@ -9,8 +9,8 @@ function Header({onChange}) {
                 e.preventDefault(); onChange("compCalc");}}>Compound Interest Calculator</a>
             <a href="disbersement" onClick={(e) => {
                 e.preventDefault(); onChange("disbursement");}}>Disbursement</a>
-            <a href="about" onClick={(e) => {
-                e.preventDefault(); onChange("about");}}>About</a>
+            <a href="401k" onClick={(e) => {
+                e.preventDefault(); onChange("401k");}}>401k Calculation</a>
         </nav>
     );
 }

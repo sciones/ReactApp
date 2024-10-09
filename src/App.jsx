@@ -3,7 +3,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Home from "./Home.jsx"
 import CompCalc from "./CompCalc.jsx"
-import About from "./About.jsx"
+import Max401k from "./Max401k.jsx"
 import Disbursement from "./Disbursement.jsx"
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
       <Header onChange={handlePage} />
       <div>
         {page === "home" && <Home />}
-        {page === "about" && <About />}
         {page === "compCalc" && <CompCalc />}
         {page === "disbursement" && <Disbursement />}
+        {page === "401k" && <Max401k />}
       </div>
       <Footer />
     </div>
