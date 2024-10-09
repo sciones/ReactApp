@@ -72,6 +72,10 @@ nav a:hover {
   gap: 10px;
 }
 
+input, select {
+  width: 100px;
+}
+
 .input {
   display: flex;
   justify-content: space-between;

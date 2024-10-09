@@ -17,7 +17,6 @@ function App() {
     <div className="container">
       <Header onChange={handlePage} />
       <div>
-        {page === "home" && <Home />}
         {page === "compCalc" && <CompCalc />}
         {page === "disbursement" && <Disbursement />}
         {page === "401k" && <Max401k />}

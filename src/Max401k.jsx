@@ -46,28 +46,26 @@ function Max401k() {
 
         setValues(v => ({...v, total: Math.round(total).toLocaleString()}));
     }
-    
+
+    const yearOptions = [];
+    for (let i = 1984; i <= 2024; i++) {
+        yearOptions.push(<option key={i} value={i}>{i}</option>);
+    }
 
     return(
         <div className="calcBody">
             <h1 className="title"> 401k Calculation </h1>
             <div className="input">
                 <label>Starting Year</label>
-                <input 
-                    type="number"
-                    name="start" 
-                    value={values.start} 
-                    placeholder="2000"
-                    onChange={inputChange} />
+                <select name="start" value={values.start} onChange={inputChange}>
+                    {yearOptions}
+                </select>
             </div>
-            <div  className="input">
+            <div className="input">
                 <label>Ending Year</label>
-                <input 
-                    type="number"
-                    name="end"  
-                    value={values.end} 
-                    placeholder="2020"
-                    onChange={inputChange} />
+                <select name="end" value={values.end} onChange={inputChange}>
+                    {yearOptions}
+                </select>
             </div>
             <div  className="input">
                 <label>Interest Rate</label>
