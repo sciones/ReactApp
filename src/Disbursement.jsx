@@ -53,7 +53,7 @@ function Disbursement() {
 
     return (
         <div className="calcBody">
-            <h1 className="title"> Disbursement Calculator </h1>
+            <h1 className="title"> = Disbursement Calculation = </h1>
             <div className="input">
                 <label>Current Investment</label>
                 <input 
@@ -96,9 +96,9 @@ function Disbursement() {
                 <thead>
                     <tr>
                         <th>Year</th>
-                        <th>Disbursed Amount</th>
-                        <th>Interest Gain</th>
-                        <th>Remaining Balance</th>
+                        <th>Disbursed</th>
+                        <th>Interest</th>
+                        <th>Balance</th>
                     </tr>
                 </thead>
                 <tbody>

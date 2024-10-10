@@ -30,6 +30,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
+  gap: 5px;
   border-radius: 5px;
   width: 100%;
   top: 0;
@@ -52,8 +53,8 @@ nav a:hover {
   font-weight: bold;
   text-align: center;
   padding: 5px 5px;
-  width: 100%;
   color: white;
+  border-radius: 5px;
   background-color: hsl(225, 52%, 49%);
 }
 

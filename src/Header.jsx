@@ -8,7 +8,7 @@ function Header({onChange}) {
             <a href="disbersement" onClick={(e) => {
                 e.preventDefault(); onChange("disbursement");}}>Disbursement</a>
             <a href="401k" onClick={(e) => {
-                e.preventDefault(); onChange("401k");}}>401k Calculation</a>
+                e.preventDefault(); onChange("401k");}}>401k Calc</a>
         </nav>
     );
 }

@@ -37,7 +37,7 @@ function CompCalc() {
 
     return(
         <div className="calcBody">
-            <h1 className="title"> Compound Interest Calculator </h1>
+            <h1 className="title"> = Compound Calculation = </h1>
             <div className="input">
                 <label>Current Investment</label>
                 <input 

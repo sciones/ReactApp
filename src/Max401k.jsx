@@ -54,7 +54,7 @@ function Max401k() {
 
     return(
         <div className="calcBody">
-            <h1 className="title"> 401k Calculation </h1>
+            <h1 className="title"> = Max 401k Calculation = </h1>
             <div className="input">
                 <label>Starting Year</label>
                 <select name="start" value={values.start} onChange={inputChange}>
