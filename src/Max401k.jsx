@@ -39,10 +39,13 @@ function Max401k() {
 
         let total = 0;
         for (let i = parsedStart; i < parsedEnd; i++) {
-            console.log(i, data401k[i]);
-            total += data401k[i];
-            total *= (1 + parsedInterest/100) 
+            //total += data401k[i];
+            //total *= (1 + parsedInterest/100);
+            total = total * (1 + (parsedInterest/100)) + data401k[i] * ((1 + parsedInterest/100) - 1) / (parsedInterest / 100);
         }
+
+        //const total = parsedInitVal * Math.pow(1 + (parsedInterest / 100), parsedTime) + 
+        //   (parsedContrib * 12) * ((Math.pow(1 + (parsedInterest / 100), parsedTime) - 1) / (parsedInterest / 100));
 
         setValues(v => ({...v, total: Math.round(total).toLocaleString()}));
     }
